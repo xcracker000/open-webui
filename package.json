@@ -18,6 +18,7 @@
 		"cy:open": "cypress open",
 		"test:frontend": "vitest --passWithNoTests",
 		"pyodide:fetch": "node scripts/prepare-pyodide.js"
+		"build": "[my-framework] build --output public"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
